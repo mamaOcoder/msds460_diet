@@ -7,11 +7,11 @@ ampl = ampl_notebook(
 
 # define decision variables
 ampl.eval("""
-            var o >= 1;
-            var c >= 1;
-            var p >= 1;
-            var s >= 1;
-            var e >= 1;
+            var o >= 0;
+            var c >= 0;
+            var p >= 0;
+            var s >= 0;
+            var e >= 0;
           """)
 
 # define objective function

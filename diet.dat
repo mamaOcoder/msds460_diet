@@ -1,0 +1,28 @@
+data;
+
+set NUTR := S C P VD Ca Fe K ;
+set FOOD := OAT CHK PST FISH ENC ;
+
+param:   cost  f_min  f_max :=
+  OAT    1.16    0     100
+  CHK    1.78    0     100
+  PST    0.82    0     100
+  FISH   4.13    0     100
+  ENC    5.49    0     100;
+
+param:   n_min  n_max :=
+   S      0       35000
+   C      14000   100000
+   P      350     100000
+   VD     140     100000 
+   Ca     9100    100000
+   Fe     126     100000
+   K      32900   100000;
+
+param amt (tr):
+          S    C     P   VD     Ca    Fe    K :=
+   OAT    0    360   12   0     105   3.2   392
+   CHK    80   270   27   0     0     0.9   410
+   PST    400  260   8    0     50    1.3   580
+   FISH   90   310   31   15.9  0     2.2   700
+   ENC    890  450   20   0.8   390   2.3   430;

@@ -1,0 +1,9 @@
+CPLEX 22.1.1.0: optimal solution; objective 136.8981132
+5 dual simplex iterations (0 in phase I)
+Objective is: 136.89811320754717
+   index0    |   Buy.val   
+   'CHK'     |      0      
+   'ENC'     |      0      
+   'FISH'    | 8.80503144654088
+   'OAT'     | 86.66666666666667
+   'PST'     |      0     
