@@ -14,11 +14,11 @@ Meals were selected based on items that were available in my pantry/refridgerato
 | Salmon & Quinoa           | 4.13  |  90      |  310       |  31       |  15.9      |  0       |  2.2   |  700        |
 | Enchilada                 | 5.49  |  890     |  450       |  20       |  0.8       |  390     |  2.3   |  430        |
 
-**Objective Function:**
+**Objective Function:**  
 Minimize: 1.16o + 1.78c + 0.82p + 4.13s + 5.49e
 
-**Constraints:**
-To satisfy a weekly diet, the FDA recommended daily requirements were multiplied by 7.
+**Constraints:**  
+To satisfy a weekly diet, the FDA recommended daily requirements were multiplied by 7.  
 80c + 400p + 90s + 890e             <= 35000 	[sodium intake]
 360o + 270c + 260p + 310s + 450e    >= 14000	[energy/calorie intake] 
 12o + 27c + 8p + 31s + 20e          >= 350		[protein intake]
@@ -52,7 +52,7 @@ This is the data file for the linear programming problem. It follows the format 
 This is the model file for the linear programming problem. It follows the format described in [AMPL: A Modeling Language for Mathematical Programming](https://ampl.com/wp-content/uploads/BOOK.pdf).
 
 ### *images/*
-Folder contains images of the food items and their nutritional label used for the assignment.
+This folder contains images of the food items and their nutritional label used for the assignment.
 
 ### *results/*
 This folder contains text files of the outputs of the 4 runnings of the program.
