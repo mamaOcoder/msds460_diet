@@ -19,13 +19,13 @@ Minimize: 1.16o + 1.78c + 0.82p + 4.13s + 5.49e
 
 **Constraints:**  
 To satisfy a weekly diet, the FDA recommended daily requirements were multiplied by 7.  
-80c + 400p + 90s + 890e             <= 35000 	[sodium intake]
-360o + 270c + 260p + 310s + 450e    >= 14000	[energy/calorie intake] 
-12o + 27c + 8p + 31s + 20e          >= 350		[protein intake]
-15.9s + 0.8e                        >= 140 		[vitamin D intake]
-105o + 50p + 390e                   >= 9100     [calcium intake]
-3.2o + 0.9c + 1.3p + 2.2s + 2.3e    >= 126		[iron intake]
-392o + 410c + 580p + 700s + 430e    >= 32900	[potassium intake]
+80c + 400p + 90s + 890e             <= 35000 	[sodium intake]  
+360o + 270c + 260p + 310s + 450e    >= 14000	[energy/calorie intake]   
+12o + 27c + 8p + 31s + 20e          >= 350		[protein intake]   
+15.9s + 0.8e                        >= 140 		[vitamin D intake]   
+105o + 50p + 390e                   >= 9100     [calcium intake]   
+3.2o + 0.9c + 1.3p + 2.2s + 2.3e    >= 126		[iron intake]   
+392o + 410c + 580p + 700s + 430e    >= 32900	[potassium intake]   
 
 ## AMPL
 To solve this linear problem, I utilized the AMPL API for Python. In my initial code (assignment1_ampl.py), I followed an example in [Hands-On Optimization with AMPL in Python](https://ampl.com/mo-book/notebooks/01/production-planning-basic.html). After the sync-session on Thursday, I chose to rewrite the code following the example that Dr. Miller provided, which allows the AMPL model to be used across languages.
